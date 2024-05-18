@@ -20,8 +20,9 @@ class Order extends Model
     public function client(){
         return $this->belongsTo(Client::class);
     }
-
+    /*
     public function dishes(){
         return $this->belongsToMany(Dish::class)->withPivot(['quantity']);
     }
+    */
 }

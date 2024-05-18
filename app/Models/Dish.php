@@ -18,8 +18,9 @@ class Dish extends Model
         'imageUrl',
         'category',
     ];
-
+    /*
     public function order(){
         return $this->belongsTo(Order::class)->withPivot(['quantity']);
     }
+    */
 }
